@@ -19,7 +19,7 @@ export function configure({ char: c, color: col } = {}) {
 }
 
 console.log = (...args) => {
-	const separator = `${color}${char.repeat(process.stdout.columns)}`;
+	const separator = `${color}${char.repeat(process.stdout.columns)}\x1b[0m`;
 	originalLog(`${separator}\n`, ...args);
 };
 exports.configure = configure;
