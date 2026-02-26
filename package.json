@@ -1,12 +1,13 @@
 {
   "name": "console-separator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds a customizable separator line before each console.log",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SlenderDev/Dranhoc",
+  "type": "module",
   "exports": {
     ".": {
       "import": "./index.js",
