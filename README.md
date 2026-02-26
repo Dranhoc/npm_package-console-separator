@@ -29,4 +29,4 @@ configure({
 ```
 
 ## Preview
-![description](./screenshot.png)
+![description](https://raw.githubusercontent.com/Dranhoc/npm_package-console-separator/master/screenshot.png)
