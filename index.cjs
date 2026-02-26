@@ -22,3 +22,4 @@ console.log = (...args) => {
 	const separator = `${color}${char.repeat(process.stdout.columns)}`;
 	originalLog(`${separator}\n`, ...args);
 };
+exports.configure = configure;
