@@ -1,0 +1,17 @@
+{
+  "console.alog": {
+    "prefix": "alog",
+    "body": "console.alog($1);",
+    "description": "console.alog - red bold log for Alert logs"
+  },
+  "console.elog": {
+    "prefix": "elog",
+    "body": "console.elog($1);",
+    "description": "console.elog - yellow bold log for italian Error logs"
+  },
+  "console.plog": {
+    "prefix": "plog",
+    "body": "console.plog($1);",
+    "description": "console.plog - brown bold log for Poop logs"
+  }
+}
