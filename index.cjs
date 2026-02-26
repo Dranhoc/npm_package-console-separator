@@ -13,7 +13,7 @@ const colors = {
 let char = '·';
 let color = '';
 
-export function configure({ char: c, color: col } = {}) {
+function configure({ char: c, color: col } = {}) {
 	if (c) char = c;
 	if (col && colors[col]) color = colors[col];
 }

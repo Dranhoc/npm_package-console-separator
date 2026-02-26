@@ -27,3 +27,6 @@ configure({
   color: 'green' // red, green, yellow, blue, magenta, cyan, white
 });
 ```
+
+## Preview
+![description](./screenshot.png)
