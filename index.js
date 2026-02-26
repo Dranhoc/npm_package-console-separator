@@ -1,0 +1,25 @@
+const originalLog = console.log.bind(console);
+
+const colors = {
+	red: '\x1b[31m',
+	green: '\x1b[32m',
+	yellow: '\x1b[33m',
+	blue: '\x1b[34m',
+	magenta: '\x1b[35m',
+	cyan: '\x1b[36m',
+	white: '\x1b[37m',
+	reset: '\x1b[0m',
+};
+
+let char = '·';
+let color = '';
+
+export function configure({ char: c, color: col } = {}) {
+	if (c) char = c;
+	if (col && colors[col]) color = colors[col];
+}
+
+console.log = (...args) => {
+	const separator = `${color}${char.repeat(process.stdout.columns)}${colors.reset}`;
+	originalLog(`${separator}\n`, ...args);
+};

@@ -1,0 +1,11 @@
+{
+  "name": "console-separator",
+  "version": "1.0.0",
+  "description": "Adds a separator line before each console.log",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Slenderdev/Dranhoc",
+  "license": "ISC"
+}
